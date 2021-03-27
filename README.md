@@ -3,7 +3,7 @@ The scripts in this repositories use API keys from [Google](https://console.deve
 The scripts relies on the following python packages: matplotlib, pandas, numpy, requests, time, datetime, scipy and gmpas. 
 
 ## [WeatherPy](./WeatherPy)
-the scripts uses the OpenWeather API to visualize the weather in more than 500 cities across the world at randomly sampled distance from the equator. Once all the data are gathered the following scatter plots are generated and the dataframe is saved in a [csv file](./WeatherPy/output_data/cities.csv):
+the script uses the OpenWeather API to visualize the weather in more than 500 cities across the world at randomly sampled distance from the equator. Once all the data are gathered the following scatter plots are generated and the dataframe is saved in a [csv file](./WeatherPy/output_data/cities.csv):
 1. ![Temperature vs latitude](./WeatherPy/output_data/Temperature.png) \
 this plot is showing the variation of temperature with the latitude, it is possible to observe that the highest temperature on February 3, 2021 were in the equatorial area (between -20 and 20 degree of latitude).
 2. ![Humidity vs latitude](./WeatherPy/output_data/Humidity.png) \
